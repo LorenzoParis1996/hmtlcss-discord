@@ -29,7 +29,7 @@ ul.menu {
     list-style-type: none;
 }
 
-ul>li.menu-item {
+ul.menu>li.menu-item {
     padding: 0.50em 1rem;
     font-size: 20px;
     color: white;
@@ -193,10 +193,10 @@ footer {
     width: 10%;
 }
 
-nav {
+.nav-footer {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(79, 93, 140);
     padding-bottom: 1rem;
 }
 
@@ -223,7 +223,7 @@ select {
     border: none;
 }
 
-ul>li:not(.purple-text) {
+ul.footer>li:not(.purple-text) {
     font-size: 16px;
     line-height: 1.5em;
     width: 11rem;
