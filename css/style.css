@@ -94,6 +94,10 @@ main>section {
     align-items: center;
 }
 
+/*.section-size.wave {
+    background-image: url(../img/wave.svg);
+} */
+
 div.column {
     padding: 2rem;
 }
@@ -106,8 +110,41 @@ div.text {
     width: 30%;
 }
 
+.image.one {
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+    padding: 14rem;
+}
+
+.image.two {
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
+    padding: 14rem;
+}
+
+.image.three {
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
+    padding: 14rem;
+}
+
+.text .head {
+    font-size: 3rem;
+}
+
+.text .par {
+    font-size: 130%;
+}
+
 .section-centered {
     text-align: center;
+}
+
+.big-image {
+    padding: 29rem;
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .centered {
