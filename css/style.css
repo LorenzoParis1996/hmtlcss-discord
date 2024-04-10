@@ -71,12 +71,12 @@ ul>li.menu-item {
     font-size: 1.6em;
     border-radius: 30px;
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 #browser {
     font-size: 1.6em;
-    padding: 15px 10px 10px;
+    padding: 15px 20px 10px;
     border-radius: 30px;
     border: none;
     background-color: rgb(19, 19, 19);
@@ -108,12 +108,13 @@ div.image {
 
 div.text {
     width: 30%;
+    padding-bottom: 4.5rem;
 }
 
 .image.one {
     background-image: url(../img/item1.svg);
     background-repeat: no-repeat;
-    padding: 14rem;
+    padding: 14rem 0 14rem;
 }
 
 .image.two {
@@ -130,10 +131,13 @@ div.text {
 
 .text .head {
     font-size: 3rem;
+    padding: 1rem;
 }
 
 .text .par {
     font-size: 130%;
+    padding: 1rem;
+    line-height: 1.5em;
 }
 
 .section-centered {
@@ -141,14 +145,42 @@ div.text {
 }
 
 .big-image {
-    padding: 29rem;
+    padding: 29rem 29rem 40rem;
     background-image: url(../img/item4-big.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .centered {
     padding: 1rem;
+}
+
+h1.centered {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+p.centered {
+    font-size: 130%;
+    padding: 1rem;
+    padding-left: 19rem;
+    width: 84%;
+    line-height: 2em;
+}
+
+.centered.below {
+    background-image: url(../img/stars.svg);
+    background-size: 37%;
+    background-repeat: no-repeat;
+    background-position: 17em;
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+
+.mac.purple {
+    color: white;
+    background-color: rgb(114, 137, 218);
+    padding: 10px 20px;
 }
 
 footer {
@@ -164,10 +196,11 @@ footer {
 nav {
     display: flex;
     justify-content: space-around;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
 }
 
-.ul-footer,
-.big-purple-text {
+.ul-footer {
     list-style-type: none;
 }
 
@@ -175,10 +208,43 @@ nav {
     padding: 4%;
 }
 
+.purple-text {
+    color: rgb(114, 137, 218);
+    font-weight: bold;
+}
+
+li.big {
+    font-size: 2rem;
+}
+
+select {
+    color: white;
+    background-color: #23272A;
+    border: none;
+}
+
+ul>li:not(.purple-text) {
+    font-size: 16px;
+    line-height: 1.5em;
+    width: 11rem;
+}
+
+i {
+    padding: 0 1em 0 0;
+}
+
 .sign-up {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
-    border-top: 1px solid white;
+}
 
+.registrati {
+    border-radius: 20px;
+    border: none;
+    padding: 0 1em;
+    font-size: 15px;
+    height: 2.5em;
+    background-color: rgb(114, 137, 218);
+    color: white;
 }
